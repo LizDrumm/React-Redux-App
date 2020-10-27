@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grandstander&display=swap');
+
+/* GENERAL STYLES */
+* {
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.App{
+  background-color: grey;
+}
+
+.App-header {
+  background-color: rgba(169, 89, 157, 0.9);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  margin-bottom: 2%;
+}
+
+img {
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 50%;
+  width: 60%;
+  opacity: 100%;
+}
+
+img:hover{
+  opacity: 60%;
+}
+
+h1 {
+  font-family: 'Creepster', cursive;
+  font-size: 2rem;
+  color: black;
+}
+
+.span {
+  font-family: 'Creepster', cursive;
+  font-size: 1.5rem;
+  color: black;
+
+}
+
+h2 {
+  font-family: 'Creepster', cursive;
+  font-size: 1.5rem;
+  color: black;
+}
+
+p {
+  font-family: 'Grandstander', cursive;
+  color: black;
+}
+
+/* CHARACTER CARD STYLES */
+
+.charactersContainer{
+  background-color: rgba(169, 89, 157, 0.9);
+  border-radius: 5%;
+  width: 26%;
+  margin-bottom: 2%;
+  padding: 2%;
+}
+
+.characterBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.Alive{
+  color: rgb(125, 247, 11);
+  text-transform: uppercase;
+}
+
+.Dead {
+  color: rgb(203, 6, 6);
+  text-decoration: line-through;
+}
+
+.unknown {
+  color: rgb(153, 162, 172);
+}
+
+/* PAGE NUMBER STYLES */
+
+.pageNumbers {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 3%;
+  padding: 1%;
+}
+
+.numberDiv {
+  width: 100%;
+  margin: 0 2%;
+}
+
+.pageNumber {
+  background-color: rgba(163, 7, 140, 0.8);
+  color: white;
+  border: none;
+  border-radius: 5%;
+  width: 100%;
+  padding: 10%;
+}
+
+.pageNumber:hover {
+  background-color: rgb(163, 7, 140);
+}
+
+.showAndHide:hover {
+  color: rgb(153, 162, 172);
+}
